@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Tanushree M</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a class="brand" href="index.html">Tanushree M</a>
+      <button id="menuBtn">Menu</button>
+      <ul id="menu">
+        <li><a class="link" href="index.html">Home</a></li>
+        <li><a class="link" href="resume.html">Resume</a></li>
+        <li><a class="link" href="biodata.html">Bio-data</a></li>
+        <li><a class="link" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact</h1>
+
+    <section>
+      <h2>Send a message</h2>
+      <form id="contactForm">
+        <label for="name">Name</label>
+        <input id="name" type="text">
+        <div class="err" id="nameErr"></div>
+
+        <label for="email">Email</label>
+        <input id="email" type="email">
+        <div class="err" id="emailErr"></div>
+
+        <label for="msg">Message</label>
+        <textarea id="msg" rows="5"></textarea>
+        <div class="err" id="msgErr"></div>
+
+        <button class="btn" type="submit">Send</button>
+        <p id="formMsg"></p>
+      </form>
+    </section>
+
+    <section>
+      <h2>Other ways to reach me</h2>
+      <ul>
+        <li>Email: <a href="mailto:mtanushree679@gmail.com">mtanushree679@gmail.com</a></li>
+        <li>Phone: 123456789</li>
+        <li>College: C Byre Gowda Institute of Technology</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>&copy; <span id="year"></span> Tanushree M</footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
